@@ -1,1 +1,93 @@
+#stats {
+    width: 400px;
+    height: 200px;
+    background: gray;
+    position: fixed;
+}
 
+#health {
+    color: black;
+}
+
+#hunger {
+    color: black;
+}
+
+#thirst {
+    color: black;
+}
+
+#gameScreen {
+    width: 700px;
+    height: 500px;
+    background-image: linear-gradient(black, green);
+    margin-left: 0px;
+    margin-top: 250px;
+    position: fixed;
+}
+
+#alertScreen {
+    width: 700px;
+    height: 100px;
+    background: black;
+    margin-top: -70;
+}
+
+#alertMSG {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+
+#taskBar {
+    height: 300px;
+    width: 700px;
+    border-width: 5px;
+    border-color: black;
+}
+
+#taskOne {
+    height: 90px;
+    width: 600px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
+    margin-left: 50px;
+    margin-top: 20px;
+    background: rgba(106, 197, 100, 0.75);
+}
+
+#taskOneHP {
+    text-align: center;
+    font-size: 30px;
+}
+
+#taskTwo {
+    height: 90px;
+    width: 600px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
+    margin-left: 50px;
+    background: rgba(106, 197, 100, 0.75);
+}
+
+#taskThree {
+    height: 90px;
+    width: 600px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
+    margin-left: 50px;
+    background: rgba(106, 197, 100, 0.75);
+}
+
+#menuBar {
+    height: 100px;
+    width: 700px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
+    position: absolute;
+    background: gray;
+}
